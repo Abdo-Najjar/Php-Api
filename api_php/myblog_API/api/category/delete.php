@@ -9,6 +9,8 @@ header('Access-Control-Allow-Headers: Access-Control-Allow-Headers,Content-Type,
 require_once "../../config/DatabaseConnection.php";
 require_once "../../modules/Category.php";
 
+
+
 //check if the requested method is POST
 if ($_SERVER['REQUEST_METHOD'] == "DELETE"):
 
